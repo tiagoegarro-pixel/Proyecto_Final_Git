@@ -93,5 +93,13 @@ int multiplicar(int a , int b)
 {
     return a * b;
 }
-
+float dividir(int a , int b)
+{
+    if(b == 0){
+        printf("Error: Division por cero no permitida.\n");
+        return 0;
+    }else{
+        return (float)a / b;
+    }
+}
 
