@@ -81,7 +81,6 @@ void mostrar_menu()
 }
 
 // Crear las demás funciones aquí
-
 int sumar(int a, int b)
 {
     return a + b;
@@ -89,6 +88,10 @@ int sumar(int a, int b)
 int restar(int a, int b)
 {
     return a - b;
+}
+int multiplicar(int a , int b)
+{
+    return a * b;
 }
 
 
